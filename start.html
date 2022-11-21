@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Maze Game Website</title>
+	<link rel='stylesheet' type='text/css' media='screen' href ='game.css'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+	<!---Font-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">	
+</head>
+
+
+<body>
+    <!---header-->
+    <header>
+	<img class="logo" src="pic/logo.png" alt="logo">
+	    <nav>
+	    	<ul class="nav_links">
+	    		<li><a href ="#"><button class="menuButton">LEVEL</button></a></li>
+	    		<li><a href ="#"><button class="menuButton">LEADERBOARD</button></a></li>
+	    		<li><a href ="#"><button class="menuButton">PROFILE</button></a></li>
+	    	</ul>
+	    </nav>
+    </header>
+
+    <div id="content">
+        <h1>WELCOME to the Dungeon</h1>
+        <br>
+        <form action="/startSelectLevel"> <!-- ref : https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_select -->
+            <label for="LEVEL">Level : </label>
+            <select name="Level" id="levelID">
+              <option value="easy">Easy</option>
+              <option value="normal">Normal</option>
+              <option value="hard">Hard</option>
+            </select>
+            <br>
+            <input id="startbutton" type="submit" value="Start">
+        </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+</body>
