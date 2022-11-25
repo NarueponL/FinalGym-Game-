@@ -28,7 +28,7 @@ div{
     text-align: center;
 }
 
-#username, #password , #confirm{
+#username, #password , #confirm, #email{
     padding: 5px 30px 5px 30px;
     border-color: white;
 }
