@@ -1,0 +1,305 @@
+.game{
+    width: 540px;
+    height: 540px;
+    position: relative;
+    border: 2px solid black;
+}
+
+.wall {
+    position: absolute;
+	color: transparent;
+	width: 27px;
+	height: 27px;
+	background-color: rgba(0, 255, 0, 0.3);
+}
+
+#finish{
+    position: absolute;
+	width: 27px; 
+    height: 27px;
+	left:  243px; 
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+#start{
+    position: absolute;
+	width: 27px; 
+    height: 27px;
+    top: 486px;
+	left: 189px; 
+    background-color: rgba(247, 0, 255, 0.6);
+}
+
+#normal1{
+	width: 243px; 
+	left:  0px; 
+	top: 0px;
+}
+
+#normal2{
+	height:81px; 
+	left: 270px; 
+	top:  0px;
+}
+
+#normal3{
+	width:216px; 
+	left:297px; 
+	top:0px;
+}
+
+#normal4{
+    height:108px; 
+	left:513px; 
+	top:0px;
+}
+
+#normal5{
+	height:486px; 
+	left:0px; 
+	top: 27px;
+}
+
+#normal6{
+	height: 54px; 
+	left: 108px; 
+	top:27px;
+}
+
+#normal7{
+	width: 54px;
+	left: 27px; 
+	top: 54px;
+}
+
+#normal8{
+	height: 162px; 
+	left:162px; 
+	top:54px;
+}
+
+#normal9{
+	width: 81px;
+	left:189px; 
+	top:54px;
+}
+
+#normal10{
+	width:189px; 
+	left:297px; 
+	top:54px;
+}
+
+#normal11{
+	height: 81px; 
+	left:324px; 
+	top:81px;
+}
+
+#normal12{
+	width: 108px; 
+	left:54px; 
+	top:108px;
+}
+
+#normal13{
+	height:81px; 
+	left: 243px; 
+	top:  108px;
+}
+
+#normal14{
+	height:189px; 
+	left: 432px; 
+	top:  108px;
+}
+
+#normal15{
+	width: 54px; 
+	left:486px; 
+	top:108px;
+}
+
+#normal16{
+	width: 108px; 
+	left:27px; 
+	top:162px;
+}
+
+#normal17{
+    height:135px; 
+	left:513px; 
+	top:135px;
+}
+
+#normal18{
+	width: 54px;
+	left: 27px; 
+	top: 216px;
+}
+
+#normal19{
+	height: 108px; 
+	left: 108px; 
+	top:189px;
+}
+
+#normal20{
+	width: 216px; 
+	left:189px; 
+	top:189px;
+}
+
+#normal21{
+	left:459px; 
+	top:189px;
+}
+
+#normal22{
+	height: 54px; 
+	left: 189px; 
+	top:216px;
+}
+
+#normal23{
+	height: 54px; 
+	left: 270px; 
+	top:216px;
+}
+
+#normal24{
+	height: 54px; 
+	left: 378px; 
+	top:216px;
+}
+
+#normal25{
+	width: 54px; 
+	left:54px; 
+	top:270px;
+}
+
+#normal26{
+	height:243px; 
+	left:324px; 
+	top: 243px;
+}
+
+#normal27{
+	width: 54px; 
+	left:486px; 
+	top:270px;
+}
+
+#normal28{
+	width: 216px; 
+	left:108px; 
+	top: 297px;
+}
+
+#normal29{
+    height: 108px;
+	left:351px; 
+	top: 297px;
+}
+
+#normal30{
+	width: 81px; 
+	left:378px; 
+	top: 297px;
+}
+
+#normal31{
+    height: 54px;
+	left:513px; 
+	top: 297px;
+}
+
+#normal32{
+	left:405px; 
+	top: 324px;
+}
+
+#normal33{
+	height: 54px; 
+	left: 54px; 
+	top:324px;
+}
+
+#normal34{
+	height: 108px; 
+	left: 162px; 
+	top:324px;
+}
+
+#normal35{
+	width: 81px; 
+	left:27px; 
+	top:378px;
+}
+
+#normal36{
+	width: 81px; 
+	left:216px; 
+	top:378px;
+}
+
+#normal37{
+	width: 54px;
+    height: 162px; 
+	left:486px; 
+	top:351px;
+}
+
+#normal38{
+	height: 81px; 
+	left: 108px;; 
+	top: 432px;
+}
+
+#normal39{
+	width: 54px; 
+	left: 162px;; 
+	top: 459px;
+}
+
+#normal40{
+	height: 54px; 
+	left: 216px;; 
+	top: 459px;
+}
+
+#normal41{
+	height: 108px; 
+	left: 243px;; 
+	top: 405px;
+}
+
+#normal42{
+	left: 297px;; 
+	top: 432px;
+}
+
+#normal43{
+	width: 81px; 
+	left:378px; 
+	top:378px;
+}
+
+#normal44{
+	height: 81px; 
+	left:432px; 
+	top:405px;
+}
+
+#normal45{
+	height: 81px; 
+	left:378px; 
+	top:432px;
+}
+
+#normal46{
+	width: 540px; 
+	left:  0px; 
+	top: 513px;
+}
